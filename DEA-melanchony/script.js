@@ -17,7 +17,7 @@ function story() {
             //fade_new_text("As dawn breaks, a new day befalls. \nWhat is your name, traveller?: "); //umm idk needd new func
             break;
         case 12:
-            fade_new_text("Hmm... ", username, "... A beautiful name to grace the Wasteland.");
+            fade_new_text("Hmm... "+ username+ " ... A beautiful name to grace the Wasteland.");
             break;
         case 13:
             fade_new_text("You find yourself awaking from your slumber, propped against a tree. You lay in an open dried-up field, not a soul in sight except for a few animals in the distance.\n TIP: Press ENTER to continue the story.");
@@ -52,17 +52,17 @@ function fade_new_text(newtext) {
     //create new div
     let newText = document.createElement('div');
     newText.id = newid;
-    newText.classList.add("texts");
-
-    //append to the div thats  display is relative
-    document.getElementById("main").append(newText);
+    newText.classList.add("texts");  
 
     //new text things
     newText.innerText = newtext;
     newText.classList.add("fade-in-text");
     
+    //append to the div thats  display is relative
+    document.getElementById("main").append(newText);
+    
     //clear the things
-    setTimeout( function() { clear_all(oldid,newid) }, 2000);
+    setTimeout( function() { clear_all(oldid,newid) }, 1900);
 }
 
 function clear_all(oldId, newId) {
