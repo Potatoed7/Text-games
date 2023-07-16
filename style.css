@@ -1,27 +1,32 @@
 html {
     height: 100%;
     width: 100%;
-  }
-  
-  .texts {
+}
+
+#main {
+    display: relative;
+    margin: auto;
+}
+
+.texts {
     position: absolute;
     font-size: 50%;
-  }
+}
   
-  .fade-in-text {
+.fade-in-text {
     animation: fadeIn 3s;
-  }
-  @keyframes fadeIn {
+}
+@keyframes fadeIn {
     0% {opacity:0;}
     30% {opacity: 0; }
     100% { opacity: 1; }
-  }
+}
   
-  .fade-out-text {
+.fade-out-text {
     animation: fadeOut 3s;
     /* opacity: 0; */
-  }
-  @keyframes fadeOut {
+}
+@keyframes fadeOut {
     0% { opacity: 1; }
     100% { opacity: 0; }
-  }
+}
