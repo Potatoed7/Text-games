@@ -56,7 +56,7 @@ function fade_new_text(newtext) {
     newText.classList.add("fade-in-text");
     
     //clear the things
-    setTimeout( function() { clear_all(oldid,newid) }, 4000);
+    setTimeout( function() { clear_all(oldid,newid) }, 3000);
 }
 
 function clear_all(oldId, newId) {
