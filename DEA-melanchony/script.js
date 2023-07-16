@@ -1,5 +1,5 @@
-var part = 1;
-var prevPart = 1;
+var part = 10;
+var prevPart = 10;
 var username = " ";
 //automation
 ids = ["text1", "text2", "text1"]
@@ -11,21 +11,21 @@ window.onload = function() {
 
 function story() {
     prevPart = part
-    part += 0.1;
+    part += 1;
     switch (part) {
-        case 1.1:
+        case 11:
             //fade_new_text("As dawn breaks, a new day befalls. \nWhat is your name, traveller?: "); //umm idk needd new func
             break;
-        case 1.2:
+        case 12:
             fade_new_text("Hmm... ", username, "... A beautiful name to grace the Wasteland.");
             break;
-        case 1.3:
+        case 13:
             fade_new_text("You find yourself awaking from your slumber, propped against a tree. You lay in an open dried-up field, not a soul in sight except for a few animals in the distance.\n TIP: Press ENTER to continue the story.");
             break;
-        case 1.4:
+        case 14:
             fade_new_text("You gaze at your hand, resting your palm on the object, a rifle. Its mahogany stock was weathered and greenish-blue lichen was starting to grow in between its cracks.");
             break;
-        case 1.5:
+        case 15:
             fade_new_text('You gaze into the distance, you see two figures, a silohuette of a deer grazing on grass and a suspicious speck bent over on the ground a few feet away from the deer, as if it is feeding on something. You pick up your rifle and take aim, you shoot at... \n1) The deer \n2) The suspicious speck \n3) Nothing [Put your rifle away] \nTIP: type "1, 2 or 3" to select options \n\tneed to make new func for choices'); // 
     }
 }
