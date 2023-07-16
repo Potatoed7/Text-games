@@ -26,7 +26,7 @@ function story() {
             fade_new_text("\nYou gaze at your hand, resting your palm on the object, a rifle. Its mahogany stock was weathered and greenish-blue lichen was starting to grow in between its cracks.")
             break;
         case 1.5:
-            fade_new_text("\nYou gaze into the distance, you see two figures, a silohuette of a deer grazing on grass and a suspicious speck bent over on the ground a few feet away from the deer, as if it is feeding on something. You pick up your rifle and take aim, you shoot at... \n1) The deer \n2) The suspicious speck \n3) Nothing [Put your rifle away] \nTIP: type "1, 2 or 3" to select options \n\tneed to make new func for choices") // 
+            fade_new_text("\nYou gaze into the distance, you see two figures, a silohuette of a deer grazing on grass and a suspicious speck bent over on the ground a few feet away from the deer, as if it is feeding on something. You pick up your rifle and take aim, you shoot at... \n1) The deer \n2) The suspicious speck \n3) Nothing [Put your rifle away] \nTIP: type '1, 2 or 3' to select options \n\tneed to make new func for choices") // 
     }
 }
 
