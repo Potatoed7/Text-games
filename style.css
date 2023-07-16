@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .texts {
+    position: absolute;
+  }
+  
+  .fade-in-text {
+    animation: fadeIn 4s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    30% {opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fade-out-text {
+    animation: fadeOut 4s;
+    /* opacity: 0; */
+  }
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
