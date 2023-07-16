@@ -1,11 +1,10 @@
 var part = 1
 var prevPart = 1
+var username = " "
 //automation
 ids = ["text1", "text2", "text1"]
 
 window.onload = function() {
-    
-
     
     document.body.addEventListener("click", story)
 }
@@ -18,7 +17,7 @@ function story() {
             //fade_new_text("As dawn breaks, a new day befalls. \nWhat is your name, traveller?: "); //umm idk needd new func
             break;
         case 1.2:
-            //fade_new_text("Hmm... ", username, "... A beautiful name to grace the Wasteland.");
+            fade_new_text("Hmm... ", username, "... A beautiful name to grace the Wasteland.");
             break;
         case 1.3:
             fade_new_text("F\nYou find yourself awaking from your slumber, propped against a tree. You lay in an open dried-up field, not a soul in sight except for a few animals in the distance.\n TIP: Press ENTER to continue the story.");
