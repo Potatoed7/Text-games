@@ -5,6 +5,7 @@ html {
   
   .texts {
     position: absolute;
+    font-size: 30%;
   }
   
   .fade-in-text {
