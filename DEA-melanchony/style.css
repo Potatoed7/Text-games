@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+  margin: 0;
+}
+
+  #main {
+    display: block;
+    height: 65%;
+  }
+  .texts {
+    position: absolute;
+    font-size: 2.5pc;
+    width:96%;
+    height: 75%;
+    margin: 2%;
+    margin-top:7% ;
+    margin-bottom:10% ;
+    text-align: center;
+
+    z-index: -9;
+  }
+
+#options {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+
+  width: 60%;
+  height: 10%;
+
+  /* margin: auto; */
+  bottom: 15;
+  left: 20%;
+  right: 20%;
+
+}
+
+  
+#input {
+  position: absolute;
+  width: 15%;
+  left: 43%;
+  bottom: 10%;
+}
+#submit {
+  position: absolute;
+  width: 8%;
+  left: 60%;
+  bottom: 10%;
+}
+
+.invis {
+  opacity: 0;
+  z-index: -40;
+}
+
+  .fade-in-text {
+    animation: fadeInText 2s;
+  }
+  @keyframes fadeInText {
+    0% {opacity:0;}
+    20% {opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .fade-out-text {
+    animation: fadeOutText 2s;
+    /* opacity: 0; */
+  }
+  @keyframes fadeOutText {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+.fade-in-element {
+  animation: fadeInE 1.2s;
+}
+@keyframes fadeInE{
+  0% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.fade-out-element {
+  animation: fadeOutE 1.2s;
+}
+@keyframes fadeOutE{
+  0% { opacity: 1; }
+  40% { opacity: 1; }
+  100% { opacity: 0; }
+}
