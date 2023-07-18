@@ -181,6 +181,7 @@ function showOptions() {
     }
 
     document.getElementById("options").classList.remove("invis");
+    document.getElementById("options").classList.add("fade-in-element");
 }
 function hideOptions() {
 //Does not allow u to skip     (MWAHAHAHAHHAHAHAH)
@@ -190,6 +191,12 @@ function hideOptions() {
     }
 
     document.getElementById("options").classList.add("invis");
+    document.getElementById("options").classList.remove("fade-in-element");
+    document.getElementById("options").classList.add("fade-out-element");
+    setTimeout(function(){
+        document.getElementById("options").classList.remove("fade-out-element")
+    }, 1200)
+
 }
 
 
